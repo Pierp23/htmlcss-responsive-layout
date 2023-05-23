@@ -14,6 +14,7 @@
     --first-color: #0084FD;
     --second-color: #B5DDFF;
     --third-color: #9593E6;
+    --fourth-color: #333333;
 }
 
 .color-blue{
@@ -33,6 +34,11 @@
 .color-white{
     background-color: white;
     color: black;
+}
+
+.color-black{
+    background-color: var(--fourth-color);
+    color: #6F6F6F;
 }
 
 .container-large{
@@ -74,6 +80,10 @@ section{
     border-radius: .625rem;
 }
 
+/* FOOTER */
+footer *{
+    text-align: center;
+}
 
 
 
