@@ -15,3 +15,44 @@
     --second-color: #B5DDFF;
     --third-color: #9593E6;
 }
+
+
+/* HEADER */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-blue{
+    background-color: var(--first-color);
+    color: white;
+}
+
+.nav-header{
+    display: none;
+}
+
+
+
+
+
+/**************************************
+            RESPONSIVE
+ **************************************/
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    
+}
+
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    .hamburger-nav{
+        display: none;
+    }
+
+    .nav-header{
+        display: block;
+    }
+    
+}
+
