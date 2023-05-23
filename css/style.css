@@ -6,3 +6,12 @@
 }
 
 /* GENERAL */
+*{
+    font-family: 'Open Sans', sans-serif;    
+}
+
+:root{
+    --first-color: #0084FD;
+    --second-color: #B5DDFF;
+    --third-color: #9593E6;
+}
