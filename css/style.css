@@ -52,10 +52,10 @@
     padding: 20px 10px;
 }
 
-/* section{
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-} */
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .btn-white{
     padding: .5rem;
@@ -80,7 +80,7 @@ header .container-large{
     padding: 20px 10px;
 }
 
-.flex{
+.nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,11 +95,6 @@ ul li{
     list-style: none;
     display: inline-block;
     margin: 0 .625rem;
-}
-
-ul li a{
-    color: white;
-    text-decoration: none;
 }
 
 /* MAIN */
@@ -129,9 +124,6 @@ ul li a{
     margin-bottom: 1.875rem;
 }
 
-.card-1-2 a{
-    text-decoration: none;
-}
 
 .color-lightblue *{
     margin-top: 1.875rem;
@@ -172,17 +164,22 @@ ul li a{
     border-radius: 3.125rem;
 }
 
-.color-violet .container-small div *:not(.arrow){
+.planning .container-small div *:not(.arrow, .arrow > a){
     margin-top: 2.25rem;
     margin-bottom: 1.25rem;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.color-violet .container-small .planning-2 .arrow{
+.planning .container-small .planning-2 .arrow{
     margin: 0 auto;
+}
+
+.planning .container-small .planning-2 .arrow *{
     color: black;
 }
+
+
 
 .planning .container-small img{
     width: 100%;
@@ -281,7 +278,6 @@ ul li a{
 .benefits .cards .card a{
     background-color: var(--third-color);
     color: white;
-    text-decoration: none;
     width: max-content;
     padding-left: 1.875rem;
     padding-right: 1.875rem;
@@ -341,13 +337,7 @@ ul li a{
     left: 90px;
 }
 
-.about-2 a{
-    color: white;
-    text-decoration: none;
-}
-
 /* FOOTER */
-
 .footer-1,
 .footer-2{
     padding: 20px 20px;
@@ -376,10 +366,6 @@ footer *{
     font-weight: 500;
 }
 
-.footer-1 p > a{
-    color: white;
-}
-
 .btn-footer{
     width: max-content;
     margin: 0 auto;
@@ -392,11 +378,16 @@ footer *{
 
 footer .btn-footer *{
     color: var(--third-color);
-    text-decoration: none;
 }
+
+footer .container-footer p > a{
+    text-decoration: underline;
+}
+
 
 footer .footer-2 a{
     color: var(--third-color);
+    text-decoration: underline;
 }
 
 footer .footer-2 p{
@@ -405,6 +396,15 @@ footer .footer-2 p{
 }
 
 
+/**************************************
+                ANIMAZIONI
+***************************************/
+.card:hover,
+.testimonial-card:hover,
+.planning-1:hover,
+.planning-2:hover{
+    transform: scale(103%);
+}
 
 
 /**************************************
