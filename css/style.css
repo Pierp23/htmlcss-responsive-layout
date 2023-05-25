@@ -146,7 +146,7 @@ ul li{
 }
 
 .color-lightblue img{
-    width: 60%;
+    width: 250px;
     display: block;
     margin: 0 auto;
 
@@ -520,6 +520,7 @@ footer .footer-2 p{
 
     .card-1-2 div:first-child{
         margin-right: 0;
+        margin-top: 0;
     }
 
     .img{
